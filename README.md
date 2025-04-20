@@ -1,35 +1,11 @@
 
 📊 Analyzing Healthcare Data in Power BI
 🩺 Case Study: Hospital Discharges Analysis - New York State
+
 📁 Project Description
+
 This Power BI dashboard project presents an in-depth analysis of hospital discharge data from healthcare facilities across New York State. It utilizes a rich dataset containing detailed information about patient demographics, clinical procedures, diagnoses, hospital performance, and resource utilization metrics. The purpose of this case study is to uncover patterns and key influencers that affect hospital length of stay (LOS) and cost per discharge, helping healthcare administrators, analysts, and policymakers make informed decisions.
 
-📄 Dataset Overview
-The dataset includes over 26,000 discharge records from 151 hospitals and covers multiple dimensions:
-
-
-Field Name	Description
-facility_name, facility_id	Identifiers for healthcare facilities
-age_group, gender, race, ethnicity	Demographic information of patients
-length_of_stay (LOS)	Duration of hospital stay in days
-type_of_admission	Admission type (e.g., Emergency, Elective, Trauma)
-patient_disposition	Discharge status (e.g., Home, Rehabilitation, Skilled Nursing Facility)
-ccs_diagnosis_description	Clinical classification of diagnoses
-ccs_procedure_description	Clinical classification of procedures
-apr_severity_of_illness_description	Severity level from Minor to Extreme
-apr_risk_of_mortality	Mortality risk level (1 to 4)
-total_charges, total_costs	Financial metrics of care
-The classification systems used include:
-
-AHRQ CCS: Clinical Classification Software for diagnosis and procedure grouping
-
-APR-DRG: All Patient Refined Diagnosis Related Groups for severity and resource tracking
-
-📝 More on these systems:
-
-HCUP CCS
-
-NY State DOH APR-DRG
 
 📊 Key Insights & Visualizations
 1. Average Length of Stay (LOS) by Hospital
